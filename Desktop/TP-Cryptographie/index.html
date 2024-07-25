@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Ethereum</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, button {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>App Ethereum</h1>
+
+    <label for="name">Nom:</label>
+    <input type="text" id="name" placeholder="Votre nom">
+
+    <label for="ethAddress">Adresse Ethereum:</label>
+    <input type="text" id="ethAddress" placeholder="0x...">
+
+    <button id="subscribeBtn">S'abonner</button>
+    <button id="getInfoBtn">Obtenir les infos</button>
+
+    <p id="response"></p>
+
+    <script src="tp.js"></script>
+</body>
+</html>
